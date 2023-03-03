@@ -1,0 +1,401 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AfricaTravel</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <style>
+
+
+    </style>
+    <header>
+        <div class="logo">
+            <a href="index.html"> <span>Africa</span> Travel</a>
+        </div>
+        <ul class="menu">
+            <li><a href="#">Accueil</a></li>
+            <li><a href="#a-propos">À propos</a></li>
+            <li><a href="#popular-destination">Destinations</a></li>
+            <li class="dropdown">
+                <a href="#">Autres</a>
+                <ul class="dropdown-menu">
+                    <li><a href="#contact">Contact</a></li>
+                    <li><a href="#faq_section">FAQ</a></li>
+                    <li><a href="#carousel">Nos derniers voyages</a></li>
+                </ul>
+              </li>
+        </ul>
+        <a href="#" class="btn-reservation">Réserver</a>
+
+        <div class="responsive-menu"></div>
+    </header>
+    <!-- accueil section -->
+    <section id="home">
+        <h2>Devenez nos amis</h2>
+        <h4>Voyagez en Sécurité Avec Nous</h4>
+        <p>Bienvenue dans notre agence de voyage ! Nous nous spécialisons dans la fourniture de visites et de vacances de qualité à nos clients.</p>
+        <a href="#" class="btn-reservation home-btn">Réserver</a>
+        <div class="find_trip">
+            <form action="">
+                <div>
+                    <label>Pays</label>
+                    <input type="text" placeholder="Entrez un Pays">
+                </div>
+                <div>
+                    <label>Date</label>
+                    <input type="date" value="2023-01-22" min="2023-01-22">
+                </div>
+                <div>
+                    <label>Budget</label>
+                    <input type="text" placeholder="Entrez votre budget">
+                </div>
+                <input type="submit" value="voir">
+            </form>
+        </div>
+        <div class="datetime">
+            <div class="time"></div>
+            <div class="date"></div>
+          </div>
+    </section>
+
+    <!-- A propos section -->
+    <section id="a-propos">
+        <h1 class="title">à propos</h1>
+        <div class="img-desc">
+           <div class="left">
+                <video src="images/short.mp4" autoplay loop></video>
+           </div>
+            <div class="right">
+                <h3>Notre agence de voyage, basée à PARIS, est spécialisée dans la découverte des merveilles du continent. Nous organisons des voyages sur mesure pour tous les types de voyageurs, que ce soit pour des vacances en famille, des aventures en solo ou des voyages d'affaires.</h3>
+                <a href="#">Lire Plus</a>
+            </div>
+        </div>
+        
+    </section>
+
+    <!-- section destination -->
+    <section id="popular-destination">
+        <h1 class="title">destinations populaires</h1>
+        <div class="content">
+            <div class="box">
+                <img src="images/afriquesud.jpg" alt="">
+                <div class="content">
+                    <div>
+                        <h4>Afrique du Sud</h4>
+                        <p>L'Afrique du Sud est une destination extraordinaire.</p>
+                        <p> Un très beau voyage organisé avec l'aide de l'équipe de Voyageurs du Monde.</p>
+                        <a href="#">Lire Plus</a>
+                    </div>
+                </div>
+            </div>
+            <div class="box">
+                <img src="images/maroc.jpg" alt="">
+                <div class="content">
+                    <div>
+                        <h4>Maroc</h4>
+                        <p>Le tourisme au Maroc est bien développé.</p>
+                        <p>Maintenant une forte industrie touristique axée sur le sud, la culture et l'histoire du pays.</p>
+                        <a href="#">Lire Plus</a>
+                    </div>
+                </div>
+            </div>
+            <div class="box">
+                <img src="images/kenya.jpg" alt="">
+                <div class="content">
+                    <div>
+                        <h4>Kenya</h4>
+                        <p>Voyage incroyable au Kenya.</p>
+                        <p>Notre guide Félix était au petit soin et toujours avec des informations très intéressantes.</p>
+                        <a href="#">Lire Plus</a>
+                    </div>
+                </div>
+            </div>
+             <div class="box">
+                <img src="images/egypt.jpg" alt="">
+                <div class="content">
+                    <div>
+                        <h4>Egypt</h4>
+                        <p>Les pyramides d’Egypte font partie des sept merveilles du monde.</p>
+                        <p>Cela dit, Elles constituent non seulement la plus ancienne merveille mais aussi la seule encore debout à ce jour.</p>
+                        <a href="#">Lire Plus</a>
+                    </div>
+                </div>
+            </div>
+             <div class="box">
+                <img src="images/nigeria.jpg" alt="">
+                <div class="content">
+                    <div>
+                        <h4>Nigeria</h4>
+                        <p>Pour commencer l'année du bon pied, rien de tel qu'une petite escapade ! </p>
+                        <p>Mais où partir en janvier ? Voici quelques idées de voyage pour vous aider à garder la pêche, même au coeur de l'hiver.  Où partir en janvier pour reprendre des forces au soleil ?</p>
+                        <a href="#">Lire Plus</a>
+                    </div>
+                </div>
+            </div>
+             <div class="box">
+                <img src="images/tunisie.jpg" alt="">
+                <div class="content">
+                    <div>
+                        <h4>Tunisie</h4>
+                        <p>Venez visiter la Tunisie et découvrez de merveilleux paysages entre désert et mer Méditerranée.</p>
+                        <p>Voici les plus beaux endroits à visiter en Tunisie.</p>
+                        <a href="#">Lire Plus</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!--  contact section -->
+    <section id="contact">
+        <h1 class="title">Contact</h1>
+        <form action="">
+            <div class="left-right">
+                <div class="left">
+                    <label>Nom Complet</label>
+                    <input type="text">
+                    <label>Objet</label>
+                    <input type="text">
+                    <label>Email</label>
+                    <input type="email"
+                    pattern=".+@gmail\.com" size="30" required>
+                    <label>Message</label>
+                    <textarea name="" id="" cols="30" rows="10"></textarea>
+                </div>
+                <div class="right">
+                    <label>Numéro</label>
+                    <input type="tel" name="phone" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}"
+                    required>
+                    <label>Date</label>
+                    <input type="date" value="2023-01-22" min="2023-01-22">
+                    <label>Autres Details</label>
+                    <input type="text">
+                    <label>Notre Adresse</label>
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d10493.274689965432!2d2.234580799608994!3d48.89026367027074!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47e665037a9c87c9%3A0xbc26b30c7e81d068!2sSculpture%20La%20D%C3%A9fense%20de%20Paris%20(Barrias)!5e0!3m2!1sfr!2sfr!4v1674673519034!5m2!1sfr!2sfr" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                </div>
+            </div>
+            <button>Envoyer</button>
+        </form>
+    </section>
+    <!--  FAQ section -->
+        <section id="faq_section">
+            <h1 class="title">FAQ</h1>
+            <div class="faq">
+                <div>
+                    <p class="question">
+                        Quels sont les types de vacances que vous proposez ?<span class="opener" onclick="faq(this)">+</span>
+                    </p>
+                    <p class="answer">
+                        Nous proposons des vacances en hôtel, en appartement, en camping, en croisière, des circuits organisés, des vacances à la plage, des vacances de ski, etc.
+                    </p>
+                </div>
+                <div>
+                    <p class="question">
+                        Pouvons-nous vous aider à organiser un voyage sur mesure ?<span class="opener" onclick="faq(this)">+</span>
+                    </p>
+                    <p class="answer">
+                        Oui, nous pouvons vous aider à organiser un voyage sur mesure en fonction de vos préférences et de votre budget. Nous pouvons vous proposer différentes options d'hébergement, de transport et d'activités pour créer un voyage qui répondra parfaitement à vos besoins.
+                    </p>
+                </div>
+                <div>
+                    <p class="question">
+                        Pouvons-nous vous donner des informations sur les formalités d'entrée pour un voyage à l'étranger ?<span class="opener" onclick="faq(this)">+</span>
+                    </p>
+                    <p class="answer">
+                        Oui, nous pouvons vous donner des informations sur les formalités d'entrée pour le pays de destination de votre voyage. Il est important de vérifier les exigences en matière de passeport et de visa avant de partir, et nous pouvons vous aider à les obtenir si nécessaire.
+                    </p>
+                </div>
+                <div>
+                    <p class="question">
+                        Quelles sont les options d'assurance voyage que vous proposez ?<span class="opener" onclick="faq(this)">+</span>
+                    </p>
+                    <p class="answer">
+                        Nous proposons différentes options d'assurance voyage, notamment une assurance annulation, une assurance rapatriement, une assurance responsabilité civile, etc. Nous vous recommandons de souscrire une assurance voyage pour couvrir les risques liés à votre voyage et vous protéger en cas d'imprévus.
+                    </p>
+                </div>
+                <div>
+                    <p class="question">
+                        Quels sont les moyens de paiement que vous acceptez pour réserver un voyage ?<span class="opener" onclick="faq(this)">+</span>
+                    </p>
+                    <p class="answer">
+                        Nous acceptons différents moyens de paiement pour réserver un voyage, tels que les cartes de crédit, les virements bancaires et les chèques. Les modalités de paiement peuvent varier selon le type de voyage et le prestataire. Nous vous invitons à nous contacter pour plus de détails.
+                    </p>
+                </div>
+            </div>
+        </section>
+        <section id="carousel">
+            <h1 class="title">Nos derniers voyages</h1>
+            <div class="pic-ctn">
+            <button class="btn-prev">&#10094;</button>
+              <img src="images/afriquesud_voyage.jpg" alt="" class="pic active">
+              <img src="images/egypt_voyage.png" alt="" class="pic">
+              <img src="images/kenya_voyage.jpg" alt="" class="pic">
+              <img src="images/maroc_voyage.jpg" alt="" class="pic">
+              <img src="images/tunisie_voyage.jpg" alt="" class="pic">
+            <button class="btn-next">&#10095;</button>
+            </div>
+        </section>          
+    <footer>
+        <p> Réalisé par <span>Bahaeeddine27</span> | Tous les droits sont réservés.</p>
+    </footer>
+
+    <!-- les scriptes pour le site -->
+    <script>
+        var toggle_menu = document.querySelector('.responsive-menu');
+        var menu = document.querySelector('.menu');
+        toggle_menu.onclick= function(){
+             toggle_menu.classList.toggle('active');
+             menu.classList.toggle('responsive')
+        }
+    </script>
+    <script>
+        const emailInput = document.querySelector('input[type="email"]');
+
+        emailInput.addEventListener('input', function() {
+        const emailRegex = /.+@gmail\.com/;
+        const valid = emailRegex.test(emailInput.value);
+        if (valid) {
+            emailInput.style.backgroundColor = 'lightgreen';
+        } else {
+            emailInput.style.backgroundColor = 'salmon';
+        }
+        });
+
+        function faq(ele)
+        {
+        var x = ele.parentElement.nextElementSibling.style.cssText;
+        if(x=='max-height: 500px;')
+        {    
+        ele.style.cssText='transform: rotate(0deg);';     
+        ele.parentElement.nextElementSibling.style.cssText = "transition:0.3s;max-height:0px;";    
+        }
+        else
+        {
+        ele.style.cssText='transform: rotate(45deg);';   
+        ele.parentElement.nextElementSibling.style.cssText = "max-height:500px;";
+        }
+        }
+        const timeElement = document.querySelector(".time");
+        const dateElement = document.querySelector(".date");
+
+        /**
+         * @param {Date} date
+         */
+        function formatTime(date) {
+        const hours24 = date.getHours() % 24 || 24;
+        const minutes = date.getMinutes();
+        const isAm = date.getHours() < 24;
+
+        return `${hours24.toString().padStart(2, "0")}:${minutes
+            .toString()
+            .padStart(2, "0")} ${isAm ? "AM" : "PM"}`;
+        }
+
+        /**
+         * @param {Date} date
+         */
+        function formatDate(date) {
+        const DAYS = [
+            "Dimanche",
+            "Lundi",
+            "Mardi",
+            "Mercredi",
+            "Jeudi",
+            "Vendredi",
+            "Samedi",
+            
+        ];
+        const MONTHS = [
+            "Janvier",
+            "Fevrier",
+            "Mars",
+            "Avril",
+            "Mai",
+            "Juin",
+            "Juillet",
+            "Août",
+            "Septembre",
+            "Octobre",
+            "Novembre",
+            "Décembre"
+        ];
+
+        return `${DAYS[date.getDay()]}, Le ${date.getDate()} ${MONTHS[date.getMonth()]} ${date.getFullYear()}`;
+        }
+
+        setInterval(() => {
+        const now = new Date();
+
+        timeElement.textContent = formatTime(now);
+        dateElement.textContent = formatDate(now);
+        }, 200);
+        </script>
+        <script>
+        const carousel = document.querySelector('#carousel');
+        const pics = document.querySelectorAll('.pic');
+        const prevBtn = document.querySelector('.btn-prev');
+        const nextBtn = document.querySelector('.btn-next');
+
+        let currentIndex = 0;
+        let interval;
+
+        // set initial active image
+        pics[currentIndex].classList.add('active');
+
+        // function to display next image
+        function nextPic() {
+        pics[currentIndex].classList.remove('active');
+        currentIndex++;
+        if (currentIndex >= pics.length) {
+            currentIndex = 0;
+        }
+        pics[currentIndex].classList.add('active');
+        }
+
+        // function to display previous image
+        function prevPic() {
+        pics[currentIndex].classList.remove('active');
+        currentIndex--;
+        if (currentIndex < 0) {
+            currentIndex = pics.length - 1;
+        }
+        pics[currentIndex].classList.add('active');
+        }
+
+        // start auto-scrolling
+        function startInterval() {
+        interval = setInterval(() => {
+            nextPic();
+        }, 5000);
+        }
+
+        // stop auto-scrolling
+        function stopInterval() {
+        clearInterval(interval);
+        }
+
+        // event listeners
+        nextBtn.addEventListener('click', () => {
+        nextPic();
+        stopInterval();
+        startInterval();
+        });
+
+        prevBtn.addEventListener('click', () => {
+        prevPic();
+        stopInterval();
+        startInterval();
+        });
+
+        carousel.addEventListener('mouseover', stopInterval);
+        carousel.addEventListener('mouseout', startInterval);
+
+        // start auto-scrolling on page load
+        startInterval();
+        </script>
+</body>
+</html>
